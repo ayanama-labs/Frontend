@@ -1,4 +1,4 @@
-# 1. CSS Basics ✅
+# 1. CSS Basics
 
 ## What is CSS?
 
@@ -83,7 +83,7 @@ h1 {
 
 ---
 
-# 2. Selectors Fundamentals ✅
+# 2. Selectors Fundamentals
 
 ## Element Selector
 
@@ -158,7 +158,7 @@ p {
 
 ---
 
-# 3. Text and Font Properties ✅
+# 3. Text and Font Properties 
 
 ## Font Family
 
@@ -267,7 +267,7 @@ Values:
 
 ---
 
-# 4. Colors and Backgrounds ✅
+# 4. Colors and Backgrounds
 
 ## Color Values
 
@@ -431,7 +431,7 @@ Common styles:
 
 ---
 
-# 6. Basic Layout ✅
+# 6. Basic Layout
 
 ## Display Property
 
@@ -539,7 +539,7 @@ align-items: center;
 
 ---
 
-# 7. Lists and Links ✅
+# 7. Lists and Links
 
 ## List Style
 
@@ -620,7 +620,7 @@ li {
 
 ---
 
-# 8. Units and Measurements ✅
+# 8. Units and Measurements
 
 ## Absolute Units
 

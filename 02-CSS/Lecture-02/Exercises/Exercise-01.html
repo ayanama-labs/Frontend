@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pseudo Classes & Pseudo Elements Practice</title>
+
+    <style>
+      /* =========================================
+           1. :not()
+           Select all paragraphs except .special
+        ========================================= */
+
+      .not-example p:not(.special) {
+        color: red;
+      }
+
+      /* =========================================
+           2. :is()
+           Apply the same style to h2, h3 and h4
+        ========================================= */
+
+      .is-example :is(h2, h3, h4) {
+        color: blue;
+      }
+
+      /* =========================================
+           3. :where()
+           Groups selectors with ZERO specificity
+        ========================================= */
+
+      .where-example :where(h2, h3, h4) {
+        color: green;
+      }
+
+      /* =========================================
+           4. ::before
+           Add content before an element
+        ========================================= */
+
+      .before-example::before {
+        content: "★ ";
+      }
+
+      /* =========================================
+           5. ::after
+           Add content after an element
+        ========================================= */
+
+      .after-example::after {
+        content: " ✓";
+      }
+
+      /* =========================================
+           6. content property
+        ========================================= */
+
+      .content-example::before {
+        content: "Note: ";
+        font-weight: bold;
+      }
+
+      /* =========================================
+           7. Generated content
+           Add an external-link symbol
+        ========================================= */
+
+      a.external::after {
+        content: " ↗";
+      }
+
+      /* =========================================
+           8. attr()
+           Generate content from an HTML attribute
+        ========================================= */
+
+      .link-info::after {
+        content: " (" attr(href) ")";
+      }
+
+      /* =========================================
+           9. Generated content with symbols
+        ========================================= */
+
+      .check-list li::before {
+        content: "✓ ";
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Pseudo Classes & Pseudo Elements</h1>
+
+    <!-- =========================================
+         1. :not()
+    ========================================== -->
+
+    <h2>1. :not()</h2>
+
+    <div class="not-example">
+      <p>Normal paragraph</p>
+      <p class="special">Special paragraph</p>
+      <p>Another normal paragraph</p>
+    </div>
+
+    <!-- =========================================
+         2. :is()
+    ========================================== -->
+
+    <h2>2. :is()</h2>
+
+    <div class="is-example">
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <p>This paragraph is not affected.</p>
+    </div>
+
+    <!-- =========================================
+         3. :where()
+    ========================================== -->
+
+    <h2>3. :where()</h2>
+
+    <div class="where-example">
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+    </div>
+
+    <!-- =========================================
+         4. ::before
+    ========================================== -->
+
+    <h2>4. ::before</h2>
+
+    <p class="before-example">This text has generated content before it.</p>
+
+    <!-- =========================================
+         5. ::after
+    ========================================== -->
+
+    <h2>5. ::after</h2>
+
+    <p class="after-example">This text has generated content after it.</p>
+
+    <!-- =========================================
+         6. content property
+    ========================================== -->
+
+    <h2>6. Content Property</h2>
+
+    <p class="content-example">This is an important message.</p>
+
+    <!-- =========================================
+         7. Generated content
+    ========================================== -->
+
+    <h2>7. Generated Content</h2>
+
+    <a class="external" href="https://example.com"> Visit Example </a>
+
+    <!-- =========================================
+         8. attr()
+    ========================================== -->
+
+    <h2>8. Attribute Generated Content</h2>
+
+    <a class="link-info" href="https://example.com"> Example Website </a>
+
+    <!-- =========================================
+         9. Generated content with symbols
+    ========================================== -->
+
+    <h2>9. Generated Checkmarks</h2>
+
+    <ul class="check-list">
+      <li>Learn HTML</li>
+      <li>Learn CSS</li>
+      <li>Learn JavaScript</li>
+    </ul>
+  </body>
+</html>

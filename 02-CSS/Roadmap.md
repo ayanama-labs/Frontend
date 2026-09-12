@@ -65,12 +65,11 @@
     - Min/max width and height
     - Overflow property
 
-11. **Positioning Deep Dive** ✅
+11. **Positioning Deep Dive**
     - Absolute positioning
     - Fixed positioning
     - Sticky positioning
     - Z-index and stacking context
-      ✅
 
 12. **Flexbox Layout**
     - Flex container properties
@@ -78,25 +77,25 @@
     - Main axis vs cross axis
     - Common flexbox patterns
 
-13. **CSS Grid Basics** ✅
+13. **CSS Grid Basics**
     - Grid container and items
     - Grid lines, tracks, and areas
     - Basic grid layouts
     - Grid vs flexbox use cases
 
-14. **Pseudo-classes and Pseudo-elements** ✅
+14. **Pseudo-classes and Pseudo-elements**
     - Advanced pseudo-classes (:not, :is, :where)
     - Pseudo-elements (::before, ::after)
     - Content property
     - Generated content techniques
 
-15. **Responsive Design Fundamentals** ✅
+15. **Responsive Design Fundamentals**
     - Media queries
     - Mobile-first approach
     - Fluid layouts
     - Responsive images basics
 
-16. **Typography Advanced** ✅
+16. **Typography Advanced**
     - Web fonts (@font-face, Google Fonts)
     - Font loading strategies
     - Typography scale
