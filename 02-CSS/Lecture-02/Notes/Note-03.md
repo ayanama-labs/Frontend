@@ -1,5 +1,3 @@
-Boss, here are the **quick-revision notes** for CSS Positioning.
-
 # Positioning Deep Dive
 
 ## 1. `position: absolute`

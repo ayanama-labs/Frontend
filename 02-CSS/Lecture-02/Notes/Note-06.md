@@ -1,5 +1,3 @@
-Boss, here are the **clear, concise quick-revision notes**.
-
 # Pseudo-classes & Pseudo-elements
 
 ## 1. Pseudo-classes

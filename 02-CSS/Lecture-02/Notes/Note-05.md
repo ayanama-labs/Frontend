@@ -1,5 +1,3 @@
-Boss, here are the **clear, concise quick-revision notes** for CSS Grid.
-
 # CSS Grid Basics
 
 CSS Grid is a **two-dimensional layout system** for arranging elements in **rows and columns**.
