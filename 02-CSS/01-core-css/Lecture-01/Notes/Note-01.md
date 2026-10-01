@@ -158,7 +158,7 @@ p {
 
 ---
 
-# 3. Text and Font Properties 
+# 3. Text and Font Properties
 
 ## Font Family
 
